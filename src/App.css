@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Montreal';
+  src: url('../fonts/PPNeueMontreal-Variable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Formula';
+  src: url('../fonts/FormulaCondensed\ Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.search-color {
+  color: #510273;
+}
+
+.border-slim {
+  border: 1px solid hsla(281, 97%, 24%, 0.300);
+}
+.border-slim2 {
+  border: 1px solid hsla(259, 54%, 49%, 0.250);
+}
+.border-slim3 {
+  border: 1px solid hsla(259, 54%, 49%, 0.100);
+}
+
+.border-slim4 {
+  border: 1px solid hsla(291, 54%, 70%, 0.167); 
+}
+
+.hover-gradient:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,       
+    rgba(255, 255, 255, 0.98) 20%,   
+    rgba(255, 254, 252, 0.95) 40%,   
+    rgba(250, 249, 247, 0.9) 60%,    
+    rgba(245, 244, 242, 0.85) 80%,   
+    rgba(240, 239, 237, 0.8) 100%    
+  );
+}
+
+.montreal {
+  font-family: 'Montreal', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+  text-rendering: optimizeLegibility;
+  -webkit-text-stroke-width: 0.2px;
+  letter-spacing: 0.2px;
+}
+
+.formula {
+  font-family: 'Formula', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+  text-rendering: optimizeLegibility;
+  -webkit-text-stroke-width: 0.4px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.formula-details {
+  font-family: 'Formula', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+  text-rendering: optimizeLegibility;
+  -webkit-text-stroke-width: 0.4px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+}
+
+.montreal-details {
+  font-family: 'Montreal', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+  text-rendering: optimizeLegibility;
+  -webkit-text-stroke-width: 0.2px;
+  letter-spacing: 1px;
+}
+
+.background-app{
+  background: 
+  radial-gradient(
+    circle at 20% 20%, 
+    rgba(255, 255, 200, 0.2), 
+    transparent 30%
+  ),
+  radial-gradient(
+    circle at 80% 30%, 
+    rgba(255, 255, 210, 0.15), 
+    transparent 35%
+  ),
+  radial-gradient(
+    circle at 50% 70%, 
+    rgba(255, 255, 220, 0.1), 
+    transparent 40%
+  ),
+  radial-gradient(
+    circle at 90% 90%, 
+    rgba(255, 255, 190, 0.1), 
+    transparent 25%
+  ),
+  linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,  
+    rgba(255, 255, 255, 1) 100%  
+  );
+}
+
+.sidebar {
+  background: linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 1) 0%,   
+  rgba(245, 245, 255, 0.9) 20%, 
+  rgba(235, 235, 255, 0.8) 40%, 
+  rgba(225, 225, 250, 0.7) 60%, 
+  rgba(255, 245, 250, 0.6) 80%, 
+  rgba(255, 255, 255, 1) 100%  
+);
+}
+
+.navbar {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,   
+    rgba(255, 243, 246, 0.8) 30%,  
+    rgba(255, 236, 242, 0.6) 60%,  
+    rgba(255, 255, 255, 1) 100%    
+  );
+}
+
+.component-first {
+  background: linear-gradient(
+    180deg,
+    rgba(230, 247, 255, 1) 0%,      
+    rgba(225, 245, 255, 0.95) 10%, 
+    rgba(220, 240, 255, 0.9) 20%, 
+    rgba(240, 250, 255, 0.85) 30%, 
+    rgba(210, 235, 255, 0.8) 40%,  
+    rgba(235, 250, 255, 0.75) 50%, 
+    rgba(230, 245, 255, 0.7) 60%,  
+    rgba(250, 255, 255, 0.65) 70%, 
+    rgba(220, 240, 255, 0.6) 80%, 
+    rgba(240, 255, 255, 0.55) 90%, 
+    rgba(230, 247, 255, 1) 100%    
+  );
+}  
+
+.component-second {
+  background: linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 1) 0%,     
+  rgba(230, 250, 245, 0.9) 10%,  
+  rgba(220, 245, 240, 0.8) 20%,  
+  rgba(210, 240, 235, 0.7) 30%,  
+  rgba(200, 235, 230, 0.6) 40%, 
+  rgba(255, 255, 255, 0.5) 50%,  
+  rgba(190, 230, 220, 0.4) 60%,  
+  rgba(180, 225, 215, 0.3) 70%,  
+  rgba(170, 220, 210, 0.2) 80%,  
+  rgba(255, 255, 255, 0.1) 90%,  
+  rgba(160, 215, 205, 0) 100%    
+);
+}
+
+.component-third {
+  background: linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 1) 0%,     
+  rgba(255, 250, 245, 0.9) 10%,  
+  rgba(255, 245, 240, 0.8) 20%,  
+  rgba(255, 240, 235, 0.7) 30%,  
+  rgba(255, 235, 230, 0.6) 40%,  
+  rgba(255, 255, 255, 0.5) 50%,  
+  rgba(255, 230, 225, 0.4) 60%,  
+  rgba(255, 225, 220, 0.3) 70%,  
+  rgba(255, 220, 215, 0.2) 80%,  
+  rgba(255, 255, 255, 0.1) 90%, 
+  rgba(255, 215, 210, 0) 100%   
+);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  footer {
+    position: static; 
+    margin-top: 20px; 
+  }
+}
+
+
